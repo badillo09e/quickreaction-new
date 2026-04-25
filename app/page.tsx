@@ -1,11 +1,11 @@
 export default function Home() {
   return (
     <main className="bg-white text-gray-900">
-      
+
       {/* HERO SECTION */}
       <section className="bg-gradient-to-r from-[#0a1a2f] to-[#0d2a4d] text-white px-8 py-20">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-          
+
           <div>
             <h1 className="text-5xl font-bold leading-tight">
               Smart Solutions.
@@ -14,8 +14,6 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-lg text-gray-300">
-              QuickReaction Solutions is a boutique IT firm delivering data, AI,
-              and technology solutions to help businesses scale and succeed.
             </p>
 
             <div className="mt-8 flex gap-4">
@@ -32,13 +30,21 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="hidden md:flex justify-center items-center">
-<div className="w-72 h-72 bg-blue-900/30 rounded-3xl flex items-center justify-center">
-  <img 
-    src="/logo.png" 
-    alt="QuickReaction Logo" 
-    className="w-48 object-contain"
-  />
+          {/* LOGO BOX */}
+{/* LOGO BOX */}
+<div className="hidden md:flex justify-center items-center">
+  <div className="w-72 h-72 rounded-3xl flex items-center justify-center
+    bg-gradient-to-br from-blue-900/40 to-blue-700/20
+    backdrop-blur-lg border border-blue-500/20
+    shadow-2xl">
+
+    <img
+      src="/logo.png"
+      alt="QuickReaction Logo"
+      className="w-52 object-contain drop-shadow-[0_0_25px_rgba(59,130,246,0.6)]"
+    />
+
+  </div>
 </div>
         </div>
       </section>
@@ -46,18 +52,21 @@ export default function Home() {
       {/* SERVICES SECTION */}
       <section className="py-20 px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto text-center">
+
           <p className="text-blue-600 font-semibold uppercase text-sm">
             What We Do
           </p>
+
           <h2 className="text-3xl font-bold mt-2">
             Solutions That Drive Impact
           </h2>
+
           <p className="mt-4 text-gray-600">
             We partner with organizations to deliver expert IT solutions.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mt-12">
-            
+
             <div className="bg-white p-6 rounded-xl shadow">
               <h3 className="font-semibold text-lg">Data & AI Solutions</h3>
               <p className="mt-2 text-gray-600">
