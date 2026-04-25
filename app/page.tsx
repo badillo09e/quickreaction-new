@@ -33,9 +33,13 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex justify-center items-center">
-            <div className="w-72 h-72 bg-blue-900/30 rounded-3xl"></div>
-          </div>
-
+<div className="w-72 h-72 bg-blue-900/30 rounded-3xl flex items-center justify-center">
+  <img 
+    src="/logo.png" 
+    alt="QuickReaction Logo" 
+    className="w-48 object-contain"
+  />
+</div>
         </div>
       </section>
 
