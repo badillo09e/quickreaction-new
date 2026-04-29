@@ -96,7 +96,7 @@ export default function Home() {
     <>
       <nav className={`qr-nav${scrolled ? " scrolled" : ""}`} id="nav">
         <a href="#hero" className="nav-logo">
-          <Image src="/logo.png" alt="QuickReaction Solutions" width={120} height={30} priority style={{ height: 30, width: "auto" }} />
+          <Image src="/logo-icon.png" alt="QuickReaction Solutions" width={32} height={32} priority style={{ height: 32, width: "auto" }} />
           <span className="nav-logo-text">QuickReaction Solutions</span>
         </a>
         <ul className="nav-links">
@@ -213,7 +213,7 @@ export default function Home() {
 
       <footer className="qr-footer">
         <div className="ftr-logo">
-          <Image src="/logo.png" alt="QuickReaction Solutions" width={96} height={24} style={{ height: 24, width: "auto" }} />
+          <Image src="/logo-icon.png" alt="QuickReaction Solutions" width={26} height={26} style={{ height: 26, width: "auto" }} />
           <span>QuickReaction Solutions</span>
         </div>
         <ul className="ftr-links">
