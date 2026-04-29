@@ -96,7 +96,7 @@ export default function Home() {
     <>
       <nav className={`qr-nav${scrolled ? " scrolled" : ""}`} id="nav">
         <a href="#hero" className="nav-logo">
-          <Image src="/logo-icon.png" alt="QuickReaction Solutions" width={32} height={32} priority style={{ height: 32, width: "auto" }} />
+          <Image src="/logo-icon.png" alt="QuickReaction Solutions" width={42} height={40} priority style={{ height: 40, width: "auto" }} />
           <span className="nav-logo-text">QuickReaction Solutions</span>
         </a>
         <ul className="nav-links">
@@ -122,12 +122,12 @@ export default function Home() {
       </div>
 
       <section id="hero">
-        <p className="hero-badge">Executive Search · AI-First · Founded 2025</p>
+        <p className="hero-badge">Talent &amp; Executive Search · AI-First · Founded 2025</p>
         <h1 className="hero-h1">
           We connect exceptional talent<br />to <em>what&apos;s&nbsp;next.</em>
         </h1>
         <p className="hero-sub">
-          QuickReaction is a boutique executive search and advisory firm built for the era of AI. We place the strategists, builders, and leaders who define what technology organizations become.
+          QuickReaction is a boutique talent and executive search advisory firm built for the era of AI. We place the strategists, builders, and leaders who define what technology organizations become.
         </p>
         <div className="hero-actions">
           <button className="btn-navy" onClick={openModal}>Let&apos;s Connect</button>
@@ -144,7 +144,7 @@ export default function Home() {
       <div className="ticker" aria-hidden="true">
         <div className="ticker-track">
           {[...Array(2)].flatMap((_, group) =>
-            ["Data & AI Solutions", "Technology Sales", "Executive Search", "Bespoke Advisory", "AI-First Methodology", "Outcome Accountability"]
+            ["Data & AI Solutions", "Technology Sales", "Talent & Executive Search", "Bespoke Advisory", "AI-First Methodology", "Outcome Accountability"]
               .map((label, i) => (
                 <span key={`${group}-${i}`} className="ticker-item">{label} <span className="ticker-sep"></span></span>
               ))
@@ -213,7 +213,7 @@ export default function Home() {
 
       <footer className="qr-footer">
         <div className="ftr-logo">
-          <Image src="/logo-icon.png" alt="QuickReaction Solutions" width={26} height={26} style={{ height: 26, width: "auto" }} />
+          <Image src="/logo-icon.png" alt="QuickReaction Solutions" width={32} height={30} style={{ height: 30, width: "auto" }} />
           <span>QuickReaction Solutions</span>
         </div>
         <ul className="ftr-links">
